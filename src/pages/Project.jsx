@@ -4,7 +4,7 @@ import projectList from '../project';
 const Project = () => {
   return (
     <div className='bg-[aqua] py-20 lg:px-32 md:px-28 px-10'>
-      <h2 className='text-5xl text-black text-center'>Projects</h2>
+      <h2 className='lg:text-5xl md:text-4xl text-4xl text-black text-center'>Projects</h2>
       <div className='w-full flex lg:flex-nowrap md:flex-wrap flex-wrap items-center justify-center gap-5 mt-10'>
         {projectList.map((item)=>{
           return <div className='lg:w-1/4 md:w-2/3 items-center w-full h-[450px] bg-white text-[#000] border rounded-lg font-extrabold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '>
