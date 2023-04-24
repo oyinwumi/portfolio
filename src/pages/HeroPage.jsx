@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import Typewriter from 'typewriter-effect';
 import { RiFacebookFill , RiTwitterFill, RiGithubFill, RiLinkedinFill , RiInstagramFill} from "react-icons/ri";
 
@@ -27,7 +28,7 @@ const HeroPage = () => {
       </div>
       <div className='flex gap-4 justify-center pb-10'>
         <button className='bg-red hover:bg-white  hover:text-red border w-[150px] h-[46px] p-2 text-center rounded-full border-red font-extrabold '> <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt">Download cv</a></button>
-        <button className='bg-red hover:bg-white  hover:text-red border w-[150px] h-[46px] p-2 text-center rounded-full border-red font-extrabold'>Hire me</button>
+        <Link to='/portfolio'><button className='bg-red hover:bg-white  hover:text-red border w-[150px] h-[46px] p-2 text-center rounded-full border-red font-extrabold'>Veiw work</button></Link>
       </div>
        </div>
 
