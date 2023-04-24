@@ -7,7 +7,7 @@ import { DiJavascript1} from "react-icons/di";
 
 const Skill = () => {
   return (
-    <div className=' bg-[#110303] py-20 px-32'>
+    <div className=' bg-[#110303] py-20 xl:px-32 lg:px-28 md:px-28 px-10 '>
     <h2 className='text-center lg:text-5xl md:text-4xl text-4xl text-white pb-16'>My Skills</h2>
     <div className='text-[aqua] lg:text-6xl md:text-5xl text-4xl flex w-full  gap-4 flex-wrap text-center justify-center'>
        <RiHtml5Fill className='w-[20%]  mb-8  hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '/>

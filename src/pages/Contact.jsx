@@ -4,7 +4,7 @@ import { FaEnvelope , FaPhoneAlt, FaMapMarkerAlt} from "react-icons/fa";
 const Contact = () => {
     
   return (
-    <div className='bg-[#110303] lg:px-32 md:px-28 px-10 py-20'>
+    <div className='bg-[#110303] xl:px-32 lg:px-28 md:px-28 px-10 py-20'>
         <h2 className='lg:text-5xl md:text-4xl text-4xl text-center text-white mb-14'>Get In Touch</h2>
         <div className='flex lg:flex-row md:flex-col flex-col justify-between w-full'>
             <div className='lg:w-1/2 md:w-full w-full'> 
@@ -25,7 +25,7 @@ const Contact = () => {
                   <button className='border text-center rounded-full w-24 h-[40px] p-1 mt-4'>Send</button>
                 </form>
             </div>
-            <div className='lg:w-1/2 md:w-full w-full lg:ml-36 md:ml-0 ml-0 text-white'>
+            <div className='lg:w-1/2 md:w-full w-full xl:ml-36 lg:ml-14 md:ml-0 ml-0 text-white'>
                 <h3 className='lg:text-4xl md:text-3xl text-3xl mb-8 lg:mt-0 md:mt-12 mt-12'>Contact Info</h3>
                 <div>
                     <div className='flex gap-4 tlg:ext-2xl md:text-xl text-xl mb-6'>
