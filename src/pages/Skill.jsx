@@ -1,7 +1,7 @@
 import React from 'react'
 import { RiHtml5Fill , RiCss3Fill , RiReactjsFill, RiGithubFill} from "react-icons/ri";
 import { FaBootstrap, FaNpm } from "react-icons/fa";
-import { SiTailwindcss , SiFigma } from "react-icons/si";
+import { SiTailwindcss , SiFigma , SiNetlify } from "react-icons/si";
 import { TbBrandVscode, TbBrandRedux } from "react-icons/tb";
 import { DiJavascript1} from "react-icons/di";
 
@@ -21,7 +21,7 @@ const Skill = () => {
        <DiJavascript1  className='w-[20%]  mb-8  hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '/>
        <FaNpm  className='w-[20%]  mb-8  hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ' />
        <TbBrandRedux  className='w-[20%]  mb-8  hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ' />
-       <TbBrandRedux  className='w-[20%]  mb-8  hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ' />
+       <SiNetlify className='w-[20%]  mb-8  hover:text-white transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 ' />
     </div>
   </div>
   )

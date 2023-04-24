@@ -5,11 +5,11 @@ import { RiFacebookFill , RiTwitterFill, RiGithubFill, RiLinkedinFill , RiInstag
 const HeroPage = () => {
   return (
     <div className=' w-full h-[80vh] object-cover bg-gradient-to-t  from-red to-[aqua] hero '>
-       <div className='text-white pt-52 text-center hero-text'>
-        <h1 className='lg:text-xl md:text-lg  font pb-8 uppercase'>WelCome to my website</h1>
+       <div className='text-white pt-52 text-center hero-text m-auto'>
+        <h1 className='lg:text-xl md:text-lg  mt-10 font pb-8 uppercase'>WelCome to my website</h1>
       <div className='flex lg:flex-row md:flex-col flex-col items-center text-center justify-center'>
-      <h2 className='lg:text-5xl md:text-4xl text-3xl '>Hi, I'm Oyindamola Dorcas </h2>
-       <span className='lg:text-5xl md:text-4xl text-3xl lg:text-[aqua] md:text-red text-red lg:ml-3 md:ml-0 ml-0 lg:mt-0 md:mt-2 mt-2'>
+      <h2 className='xl:text-5xl lg:text-4xl md:text-4xl text-3xl '>Hi, I'm Oyindamola Dorcas </h2>
+       <span className=' xl:text-5xl lg:text-4xl md:text-4xl text-3xl lg:text-[aqua] md:text-red text-red lg:ml-3 md:ml-0 ml-0 lg:mt-0 md:mt-2 mt-2'>
         <Typewriter  options={{
             autoStart: true,
             loop: true,

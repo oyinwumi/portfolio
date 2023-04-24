@@ -3,7 +3,7 @@ import projectList from '../project';
 
 const Project = () => {
   return (
-    <div className='bg-[aqua] py-20 lg:px-32 md:px-28 px-20'>
+    <div className='bg-[aqua] py-20 lg:px-32 md:px-28 px-10'>
       <h2 className='text-5xl text-black text-center'>Projects</h2>
       <div className='w-full flex lg:flex-nowrap md:flex-wrap flex-wrap items-center justify-center gap-5 mt-10'>
         {projectList.map((item)=>{

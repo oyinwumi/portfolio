@@ -3,9 +3,8 @@ import Oyin from '../assest/oyin.jpeg'
 
 const About = () => {
   return (
-    <div className='bg-[#000] text-white  lg:px-32 md:px-28 px-20 py-20'>
+    <div className='bg-[#000] text-white  lg:px-32 md:px-28 px-10 py-20'>
         <h2 className='w-72 text-center mx-auto text-5xl  pb-2'>About Me</h2>
-        <hr className='w-60 border-dotted border-b-4  border-white mx-auto' />
         <div className='flex  lg:flex-row md:flex-col flex-col mt-14 w-full'>
            <div className=' border-2 border-gray rounded p-6  '>
            <img src={Oyin} alt={Oyin} className='items-center' />
