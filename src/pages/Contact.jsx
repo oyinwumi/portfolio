@@ -8,7 +8,7 @@ const Contact = () => {
         <h2 className='lg:text-5xl md:text-4xl text-4xl text-center text-white mb-14'>Get In Touch</h2>
         <div className='flex lg:flex-row md:flex-col flex-col justify-between w-full'>
             <div className='lg:w-1/2 md:w-full w-full'> 
-                <form action="oyindamoladorcasogunkunle@gmail.com" method='post'  className='text-black text-xl capitalize capitalize capitalize'>
+                <form action="oyindamoladorcasogunkunle@gmail.com" method='post'  className='text-black text-xl capitalize'>
                   <div className='flex lg:flex-row md:flex-col flex-col gap-5 w-full mb-6'>
                   <div className=' lg:w-1/2 md:w-full w-full'>
                     <label htmlFor="name" className='text-white'>First Name</label><br />
