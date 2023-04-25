@@ -22,7 +22,7 @@ const HeroPage = () => {
         <a href="https://www.linkedin.com/in/oyindamola-ogunkunle" target='blank' className='w-8 h-8 border rounded-full bg-[#000] p-1 border-[aqua] hover:bg-[aqua] hover:text-black flex items-center justify-center'><RiLinkedinFill/></a>
       </div> */}
       <div className='flex gap-4 font-font pt-10'>
-        <button className=' bg-redorange hover:bg-blu   text-white border w-[154px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold shadow-lg shadow-[black]'> <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt">Download cv</a></button>
+        <button className=' bg-redorange hover:bg-blu   text-white border w-[156px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold shadow-lg shadow-[black]'> <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt">Download cv</a></button>
         <Link to='/portfolio'><button className='bg-blu hover:bg-redorange text-white border w-[156px] h-[46px] p-2 text-center rounded-full border-off-white font-extrabold shadow-lg shadow-[black]'>Veiw my work</button></Link>
       </div>
        </div>

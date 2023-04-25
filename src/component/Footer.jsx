@@ -4,7 +4,7 @@ import Logo from '../assest/white-logo.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-[#00132D] py-8 border-t border-white flex lg:flex-row md:flex-col flex-col items-center justify-between lg:px-[124px] md:px-28 px-10'>
+    <div className='bg-[#00132D] py-8 border-t border-white flex lg:flex-row md:flex-col flex-col items-center justify-between lg:px-[124px] md:px-28 px-8'>
     <div className='lg:block md:block hidden'>
             <img src={Logo} alt={Logo} className='w-[233px] h-[44px] items-center ' />
             

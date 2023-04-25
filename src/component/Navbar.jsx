@@ -5,7 +5,7 @@ import Logo from '../assest/portfolio-logo.svg'
 const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className='h-[88px] bg-blu flex justify-between lg:px-[124px] md:px-28 px-10 text-white text-xl items-center '>
+    <nav className='h-[88px] bg-blu flex justify-between lg:px-[124px] md:px-28 px-8 text-white text-xl items-center '>
         <div className=' '>
             <img src={Logo} alt={Logo} className='w-[233px] h-[44px] items-center ' />
             

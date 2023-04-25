@@ -3,7 +3,7 @@ import Oyin from '../assest/Image.png'
 
 const About = () => {
   return (
-    <div className='bg-[#F5F5F5] text-white  lg:px-[124px] md:px-28 px-10  py-20'>
+    <div className='bg-[#F5F5F5] text-white  lg:px-[124px] md:px-28 px-8  py-20'>
       <div className='text-[32px] text-blu flex lg:flex-row md:flex-col flex-col items-center xl:mx-[40%C] lg:mx-[25%]  lg:gap-5 md:gap-0 gap-0 w-full'>
                 <h2 className='text-[32px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>About</h2>
                 <p className='text-lg border-t border-blu lg:w-[499px] md:w-auto w-auto pt-2 lg:order-2 md:order-1 order-1'>Intuitive, Innovative, Team Player</p>
