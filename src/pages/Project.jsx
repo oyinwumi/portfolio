@@ -1,19 +1,25 @@
-import React from 'react';
 import projectList from '../project';
 
+
 const Project = () => {
+
   return (
-    <div className='bg-[aqua] py-20 xl:px-32 lg:px-28 md:px-28 px-10 '>
-      <h2 className='lg:text-5xl md:text-4xl text-4xl text-black text-center'>Projects</h2>
-      <div className='w-full flex xl:flex-nowrap lg:flex-wrap md:flex-wrap flex-wrap items-center justify-center gap-5 mt-10'>
-        {projectList.map((item)=>{
-          return <div className=' xl:w-1/4 lg:w-2/4 md:w-1/3 items-center w-full xl:h-[500px] lg:h-[450] md:h-[450px] h-[450px]] bg-white text-[#000] border rounded-lg font-extrabold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '>
-            <img src={item.image} alt={item.image} className='h-[150px] w-full object-cover mb-8' />
-            <div className='lg:h-[200px] md-h-[180px]h-[180px]'>
-            <h3 className='text-3xl  my-4 text-center px-4'>{item.title}</h3>
-            <p className='text-start px-4 font-normal'>{item.details}</p> 
+    <div className='bg-offwhite py-20 xl:px-32 lg:px-28 md:px-28 px-10 '>
+    <div className='lg:text-[48px] md:text-[30px] text-[22px] text-blu flex lg:flex-row md:flex-col flex-col items-center xl:mx[40%] lg:mx-[25%]  lg:gap-5 md:gap-0 gap-0 w-full'>
+       <h2 className='lg:text-[48px] md:text-[30px] text-[22px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>My works</h2>
+         <p className='lg:text-lg md:text-[16px] text-[16px] border-t border-blu font-font pt-2 lg:order-2 md:order-1 order-1'>My skill set is documented in various project</p>
+          </div>
+      <div className='w-full grid xl:grid-cols-3  lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-10  items-center justify-center  mt-10'>
+        {projectList.map((item , id)=>{
+          // if(id === 1){
+          // return color
+          // }
+          return <div  style={{backgroundColor: `${item.backgroundColor}` , borderColor: `${item.borderRadius}`} }  className={` lg:items-start  mx-auto xl:w-full lg:w-full md::w-[351px] w-[351px] lg:h-[310px] md:h-[301px] h-[310px] bg-white text-[#000] border rounded-lg font-extrabold transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '`}>
+            <div className=''>
+            <h3 className='lg:text-3xl md:text-xl text-xl  my-8 text-center px-4'>{item.title}</h3>
+            <p className=' px-4 font-normal mt-4 h-[100px]'>{item.details}</p> 
             </div>
-            <button className=' border items-start rounded-full w-32 h-[46px] bg-[#000] text-white text-center p-2 xl:mt-12 lg:mt-2 md:mt-6 mt-4 lg-mb-0 md:mb-3 mb-3 mx-4'><a href={item.link} target='blank'>View Project</a></button>
+            <button className=' border items-start rounded-full w-32 h-[46px] bg-[#000] shadow-lg shadow-[black] text-white text-center p-2 xl:mt-12  lg:my-6 md:my-8 my-8 mx-4'><a href={item.link} target='blank'>View Project</a></button>
           </div>
         })}
       </div>

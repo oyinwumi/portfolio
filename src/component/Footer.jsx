@@ -1,20 +1,24 @@
 import React from 'react';
-import { RiFacebookFill , RiTwitterFill, RiGithubFill, RiLinkedinFill , RiInstagramFill} from "react-icons/ri";
+import { Link } from 'react-router-dom'
+import Logo from '../assest/white-logo.svg'
 
 const Footer = () => {
   return (
-    <div className='bg-[#000] py-8'>
-          <div className='text-[aqua] flex justify-center items-center text-center gap-6 text-xl'>
-        <a href="https://web.facebook.com/oyindamolaoluwumi" className='w-8 h-8 border rounded-full bg-[#000] hover:bg-[aqua] hover:text-black  border-[aqua] flex items-center justify-center' ><RiFacebookFill /></a>
-        <a href="https://web.facebook.com/oyindamolaoluwumi" className='w-8 h-8 border rounded-full bg-[#000]  border-[aqua] hover:bg-[aqua] hover:text-[#000] flex items-center justify-center '><RiTwitterFill/></a>
-        <a href="https://web.facebook.com/oyindamolaoluwumi" className='w-8 h-8 border rounded-full bg-[#000]  border-[aqua] hover:bg-[aqua] hover:text-[#000] flex items-center justify-center'><RiInstagramFill/></a>
-        <a href="https://web.facebook.com/oyindamolaoluwumi" className='w-8 h-8 border rounded-full bg-[#000]  border-[aqua] hover:bg-[aqua] hover:text-[#000] flex items-center justify-center'><RiGithubFill/></a>
-        <a href="https://web.facebook.com/oyindamolaoluwumi" className='w-8 h-8 border rounded-full bg-[#000]  border-[aqua] hover:bg-[aqua] hover:text-[#000] flex items-center justify-center'><RiLinkedinFill/></a>
-      </div>
-      <div className='text-white text-center text-sm mt-6'>
-         <p className='mb-2 '>Copyright © 2023 - All Right Reserved.</p>
-         <small>Designed by Cute <span className='text-[aqua]'>Oyindamola</span>.</small>
-      </div>
+    <div className='bg-[#00132D] py-8 border-t border-white flex lg:flex-row md:flex-col flex-col items-center justify-between lg:px-[124px] md:px-28 px-10'>
+    <div className='lg:block md:block hidden'>
+            <img src={Logo} alt={Logo} className='w-[233px] h-[44px] items-center ' />
+            
+        </div>
+   
+        <ul className='flex gap-5 text-white  text-[16px] font-font'>
+           <Link to="/" > <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center '>Home</li></Link>
+           <Link to="/about"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center' >About</li></Link>
+           <Link to="/contact" > <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Contact</li></Link>
+           <Link to="/portfolio"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Portfolio</li></Link>
+        </ul>
+        <div className='text-offwhite'>
+          <p>© 2023 Oyindamola Dorcas</p>
+        </div>
     </div>
   )
 }
