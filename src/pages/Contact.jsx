@@ -13,7 +13,7 @@ const Contact = () => {
     
   return (
     <div className='bg-[#00132D] lg:px-[124px] md:px-28 px-8 py-20'>
-        <div className='lg:text-[48px] md:text-[30px] text-[22px] text-white flex lg:flex-row md:flex-col flex-col items-center lg:mx-[40%]  lg:gap-5 md:gap-0 gap-0 w-full'>
+        <div className='lg:text-[48px] md:text-[30px] text-[22px] text-white flex lg:flex-row md:flex-col flex-col items-center  justify-center mb-10  lg:gap-5 md:gap-0 gap-0 w-full'>
                 <p className='lg:text-[48px] md:text-[30px] text-[22px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>Get In Touch</p>
                 <p className='lg:text-lg md:text-[16px]  text-[16px] border-t border-white  pt-2 font-font lg:order-2 md:order-1 order-1'>Available to communicate</p>
               </div>
@@ -38,27 +38,27 @@ const Contact = () => {
             </div>
             <div className='lg:w-1/2 md:w-full w-full xl:ml-36 lg:ml-14 md:ml-0 ml-0 text-white'>
                 <div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-xl mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                     <img src={Frame} alt={Frame} />
-                     <p>5, Church Street,Bembo Area, Sango, Ibadan, Nigeria</p>
+                     <p className=''>5, Church Street,Bembo Area, Sango, Ibadan, Nigeria</p>
                     </div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-xl mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                       <img src={Frame1} alt={Frame1} />
                         <p>oyinwumi0229@gmail.com</p>
                     </div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-xl mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                     <img src={Frame2} alt={Frame2} />
                         <p>+234 (08139715172)</p>
                     </div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-xl mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                        <a  href='https://www.linkedin.com/in/oyindamola-ogunkunle' target='blank'><img src={Frame3} alt={Frame3} /></a>
                         <p>Ogunkunle oyindamola</p>
                     </div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-xl mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                        <a  href='https://twitter.com/Oyinwumi0229' target='blank' ><img src={Frame4} alt={Frame4} /></a>
                         <p>Ogunkunle oyindamola</p>
                     </div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-xl mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                        <a  href='https://github.com/oyinwumi' target='blank'><img src={Frame5} alt={Frame5} /></a>
                         <p>Ogunkunle oyindamola</p>
                     </div>

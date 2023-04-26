@@ -10,7 +10,7 @@ import Project from './pages/Project';
 
 function App() {
   return (
-    <div className="App w-full h-full font-normal overflow-hidden">
+    <div className="App  font-normal overflow-hidden">
     
      <Router>
      <Navbar/>

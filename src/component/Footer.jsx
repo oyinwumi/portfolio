@@ -11,12 +11,12 @@ const Footer = () => {
         </div>
    
         <ul className='flex gap-5 text-white  text-[16px] font-font'>
-           <Link to="/" > <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center '>Home</li></Link>
-           <Link to="/about"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center' >About</li></Link>
-           <Link to="/contact" > <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Contact</li></Link>
-           <Link to="/portfolio"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Portfolio</li></Link>
+           <Link to="/" > <li className=' lg:text-[16px] md:text-[16px] text-sm lg:px-4 md:px-3 px-2 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center '>Home</li></Link>
+           <Link to="/about"> <li className=' lg:text-[16px] md:text-[16px] text-sm lg:px-4 md:px-3 px-2  lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center' >About</li></Link>
+           <Link to="/contact" > <li className='lg:text-[16px] md:text-[16px] text-sm lg:px-4 md:px-3 px-2  lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Contact</li></Link>
+           <Link to="/portfolio"> <li className='lg:text-[16px] md:text-[16px] text-sm lg:px-4 md:px-3 px-2  lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Portfolio</li></Link>
         </ul>
-        <div className='text-offwhite'>
+        <div className='text-offwhite lg:text-[16px] md:text-[16px] text-sm'>
           <p>© 2023 Oyindamola Dorcas</p>
         </div>
     </div>

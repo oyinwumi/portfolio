@@ -4,13 +4,13 @@ import Oyin from '../assest/Image.png'
 const About = () => {
   return (
     <div className='bg-[#F5F5F5] text-white  lg:px-[124px] md:px-28 px-8  py-20'>
-      <div className='text-[32px] text-blu flex lg:flex-row md:flex-col flex-col items-center xl:mx-[40%C] lg:mx-[25%]  lg:gap-5 md:gap-0 gap-0 w-full'>
+      <div className='text-[32px] text-blu flex lg:flex-row md:flex-col flex-col items-center justify-center xl:mx-auto   lg:gap-5 md:gap-0 gap-0 w-full'>
                 <h2 className='text-[32px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>About</h2>
                 <p className='text-lg border-t border-blu lg:w-[499px] md:w-auto w-auto pt-2 lg:order-2 md:order-1 order-1'>Intuitive, Innovative, Team Player</p>
               </div>
         <div className='flex  lg:flex-row md:flex-col flex-col w-full'>
     <div className='justify-center'>
-      <img src={Oyin} alt={Oyin} className=' object-cover items-center xl:w-auto lg:w-full xl:mt-0 lg:mt-20 md:mt-0 mt-0  ' />
+      <img src={Oyin} alt={Oyin} className=' object-cover  mx-auto items-center xl:w-auto lg:w-auto xl:mt-0 lg:mt-20 md:mt-0 mt-0  ' />
     </div>        
     <div className=' items-center  lg:ml-10  md:ml-0 ml-0 mt-10 text-[#667085] xl:w-2/3 lg:w-1/2 md:w-full w-full  '>
               <p className='lg:text-xl md:text-lg text-[16px]  font-font leading-8'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.

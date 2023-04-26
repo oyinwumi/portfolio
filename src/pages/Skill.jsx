@@ -8,7 +8,7 @@ import { DiJavascript1} from "react-icons/di";
 const Skill = () => {
   return (
     <div className=' bg-skyeblue py-20 lg:px-[124px] md:px-28 px-10  items-center w-full mx-auto'>
-    <div className='lg:text-[48px] md:text-[30px] text-[22px] text-blu flex lg:flex-row md:flex-col flex-col items-center lg:mx-[40%]  lg:gap-5 md:gap-0 gap-0 w-full'>
+    <div className='lg:text-[48px] md:text-[30px] text-[22px] text-blu flex lg:flex-row md:flex-col flex-col items-center justify-center lg:gap-5 md:gap-0 gap-0 w-full'>
        <h2 className='lg:text-[48px] md:text-[30px] text-[22px]font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>My Skills</h2>
          <p className='lg:text-lg md:text-[16px] text-[16px]  border-t border-blu  pt-2 font-font lg:order-2 md:order-1 order-1'>Proficient in various technical tools</p>
           </div>
