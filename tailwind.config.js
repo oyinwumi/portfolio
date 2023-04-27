@@ -13,7 +13,7 @@ module.exports = {
   
     colors: {
       redorange: '#F79934',
-      offwhite: '#EEF6FF',
+      offwhite: '#F5F5F5',
       blue: '#0550B3',
       black: '#344054',
       green: '#CEFFE2',
@@ -26,7 +26,7 @@ module.exports = {
       dark: '0F0A00',
       darkblue:'#00132D',
       blu: '#004DB3',
-      
+      whity: '#EEF6FF'
     },
   },
   plugins: [],

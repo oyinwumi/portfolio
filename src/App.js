@@ -5,6 +5,7 @@ import LandingPage from './component/LandingPage';
 import About from './pages/About';
 import Skill from './pages/Skill';
 import Project from './pages/Project';
+import Contact from './pages/Contact';
 
 
 
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<LandingPage/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/skill' element={<Skill/>}/>
+        <Route path='/contact' element={<Contact/>}/>
         <Route path='/portfolio' element={<Project/>}/>
        </Routes>
       
