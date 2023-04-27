@@ -8,9 +8,9 @@ const HeroPage = () => {
   return (
     <div className=' w-full bg-blu flex lg:flex-row md:flex-col flex-col lg:px-[124px] md:px-28 px-10 pb-20 border-t-0'>
        <div className=' font-open lg:order-1 md:order-2 order-2 lg:text-start md:text-center text-justify'>
-        <h1 className='lg:text-[48px] md:text-[30px] text-[22px] font-open leading-6 text-offwhite items-center lg:text-start md:text-center text-center mt-[50px]'>I am Oyindamola Dorcas, </h1>
+        <h1 className='lg:text-[48px] md:text-[30px] text-[22px] font-open leading-6 text-offwhite fill-offwhite items-center lg:text-start md:text-center text-center mt-[50px]'>I am Oyindamola Dorcas, </h1>
       <div className=''>
-        <p className=' flex text-offwhite lg:text-[48px] md:text-[30px] text-[22px] text-center  lg:justify-start md:justify-center justify-center'>a <span className='text-redorange ml-2'>    <Typewriter  options={{ autoStart: true, loop: true,delay: 75,strings:[' Front end Developer']}}/></span>
+        <p className=' flex text-offwhite lg:text-[48px] md:text-[30px] text-[22px] text-center  lg:justify-start md:justify-center justify-center'>a <span className='text-redorange ml-2 fill-redorange'>    <Typewriter  options={{ autoStart: true, loop: true,delay: 75,strings:[' Front end Developer']}}/></span>
         </p>
       </div> 
       <p className='lg:text-xl md:text-lg text-lg text-offwhite lg:w-[632px] md:w-full w-full mt-2 font-font'>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, dedication and imbibing knowledge to others.</p>

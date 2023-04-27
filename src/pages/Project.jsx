@@ -6,7 +6,7 @@ const Project = () => {
   return (
     <div className='bg-offwhite py-20 xl:px-32 lg:px-28 md:px-28 px-10 '>
     <div className=' text-blu flex lg:flex-row md:flex-col flex-col items-center xl:mx[40%] lg:mx-[25%]  lg:gap-5 md:gap-0 gap-0 w-full'>
-       <h2 className='lg:text-[48px] md:text-[30px] text-[22px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>My works</h2>
+       <h2 className='lg:text-[48px] md:text-[30px] text-[22px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8 fill-blu'>My works</h2>
          <p className='lg:text-lg md:text-[16px] text-[16px] border-t border-blu font-font pt-2 lg:order-2 md:order-1 order-1'>My skill set is documented in various project</p>
           </div>
       <div className='w-full grid xl:grid-cols-3  lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-14 items-center justify-center  mt-10'>
