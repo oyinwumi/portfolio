@@ -1,4 +1,4 @@
-import React from 'react';
+// import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Frame from '../assest/Frame.svg'
 import Frame1 from '../assest/Frame (1).svg'
@@ -12,7 +12,13 @@ import NavT from '../assest/nav.svg'
 // import { FaEnvelope , FaPhoneAlt, FaMapMarkerAlt} from "react-icons/fa";
 
 const Contact = () => {
-    
+    // const [scroll, setScroll] = useState(false);
+    const scrollToTop = () =>{
+      document.scroll({
+        top: 0,
+        behavior:'smooth'
+      })
+    }
   return (
     <div className='bg-[#00132D] lg:px-[124px] md:px-28 px-8 pt-20 pb-36'>
         <div className='lg:text-[48px] md:text-[30px] text-[22px] text-whity flex lg:flex-row md:flex-col flex-col items-center  justify-center mb-10  lg:gap-5 md:gap-0 gap-0 w-full'>
@@ -41,7 +47,7 @@ const Contact = () => {
             </div>
             <div className='lg:w-1/2 md:w-full w-full xl:ml-36 lg:ml-14 md:ml-0 ml-0 text-whity  relative'>
                 <div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] '>
                     <img src={Frame} alt={Frame} />
                      <p className=''>5, Church Street,Bembo Area, Sango, Ibadan, Nigeria</p>
                     </div>
@@ -66,7 +72,7 @@ const Contact = () => {
                         <span>Ogunkunle oyindamola</span>
                     </a>
                     </div>
-                    <Link to='/' className='text-offwhite lg:text-[24px] font-font w-full  float-right inset-y-0 right-0'>
+                    <Link to='/' onClick={() => scrollToTop()} className='text-offwhite lg:text-[24px] font-font w-full absolute right-[-90%] top-[110%]'>
                     <img src={NavT} alt={NavT} />
         
                   </Link>
