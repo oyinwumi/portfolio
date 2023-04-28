@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Frame from '../assest/Frame.svg'
 import Frame1 from '../assest/Frame (1).svg'
 import Frame2 from '../assest/Frame (2).svg'
 import Frame3 from '../assest/Frame (3).svg'
 import Frame4 from '../assest/Frame (4).svg'
 import Frame5 from '../assest/Frame (5).svg'
+import NavT from '../assest/nav.svg'
 
 
 // import { FaEnvelope , FaPhoneAlt, FaMapMarkerAlt} from "react-icons/fa";
@@ -19,7 +21,7 @@ const Contact = () => {
               </div>
         <div className='flex lg:flex-row md:flex-col flex-col justify-between w-full text-whity font-font'>
             <div className='lg:w-1/2 md:w-full w-full'> 
-                <form action="oyindamoladorcasogunkunle@gmail.com" method='post'  className=' text-xl capitalize'>
+                <form action="oyindamoladorcasogunkunle@gmail.com" method='post'  className=' text-xl capitalize '>
                   <div className='flex lg:flex-row md:flex-col flex-col gap-5 w-full mb-6'>
                   <div className=' lg:w-1/2 md:w-full w-full'>
                     <label htmlFor="name" className='text-whity'>First Name</label><br />
@@ -32,11 +34,12 @@ const Contact = () => {
                   </div>
                   <label htmlFor="email "  className='text-whity pb-3'>Email Address</label><br />
                   <input type="email" className='w-full p-2 border rounded-lg outline-none mb-6 capitalize bg-darkblue' /><br /><br />
-                  <textarea name="" id="" cols="30" rows="5" placeholder='Message' className='w-full p-4 outline-none bg-darkblue border rounded-lg'></textarea>
-                  <button className='border text-center rounded-full w-full h-[46px] p-1 mt-4 bg-offwhite text-darkblue lg:mb-0 md:mb-14 mb-14'>Send</button>
+                  <textarea name="" id="" cols="30" rows="3" placeholder='Message' className='w-full p-4 outline-none bg-darkblue border rounded-lg'></textarea>
+                  <button className='border text-center rounded-full w-full h-[46px] p-1 mt-4 bg-offwhite text-darkblue lg:mb-0 md:mb-14 mb-14'>Send</button> <br />
+                 
                 </form>
             </div>
-            <div className='lg:w-1/2 md:w-full w-full xl:ml-36 lg:ml-14 md:ml-0 ml-0 text-whity'>
+            <div className='lg:w-1/2 md:w-full w-full xl:ml-36 lg:ml-14 md:ml-0 ml-0 text-whity  relative'>
                 <div>
                     <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                     <img src={Frame} alt={Frame} />
@@ -63,6 +66,10 @@ const Contact = () => {
                         <span>Ogunkunle oyindamola</span>
                     </a>
                     </div>
+                    <Link to='/' className='text-offwhite lg:text-[24px] font-font w-full  float-right inset-y-0 right-0'>
+                    <img src={NavT} alt={NavT} />
+        
+                  </Link>
                 </div>
             </div>
         </div>

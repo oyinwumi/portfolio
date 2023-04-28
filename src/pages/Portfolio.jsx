@@ -1,16 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import MashUp from '../assest/mashup1.png'
+import MashUp from '../assest/mash-up1.png'
+import Calculator from '../assest/calculator.jpeg'
+import PrimeTable from '../assest/primeTable.jpeg'
+import User from '../assest/fetch-users.jpeg'
+import MockUp from '../assest/mockup2.png'
 import Logo from '../assest/portfolio-logo.svg'
+
 
 
 const Portfolio = () => {
   return (
-    <div className='bg-offwhite pt-20 lg:px-[124px] md:px-28 px-8'>
+    <div className='bg-offwhite pt-20 lg:px-[124px] md:px-28 px-8 w-full'>
       <div className='text-center lg:w-[809px] justify-center mx-auto font-normal'>
       <h2 className='lg:text-[48px] md:text-[35px] text-[30px] text-[#0F0A00] fill-[#0F0A00] font-medium leading-[60px] font-open'>I design and build usable  <br /> interface</h2>
        <p className='text-[#667085] lg:text-xl md
-       text:lg text-[16px] font-font'>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, <br /> dedication and imbibing knowledge to others.</p>
+       text:lg text-[16px] font-font '>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, <br /> dedication and imbibing knowledge to others.</p>
        <div className='flex gap-4 font-font pt-10 lg:text-[16px] text-sm  justify-center'>
       
       <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[150px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold'>Download cv</button></a>
@@ -19,71 +24,71 @@ const Portfolio = () => {
       </div>
 
        <div className='flex lg:flex-row md:flex-col flex-col py-20'>
-        <div className='w-1/2 h-[271px]'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover ' />
+        <div className='w-full'> 
+          <img src={MashUp} alt={MashUp} className='w-full  ' />
           </div>
-         <div className='lg:w-1/3 ml-14'>
+         <div className='lg:w-2/3 ml-14'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Portfolio Website</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
+       text:lg text-[16px] font-font leading-[32px] '>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20'>
-         <div className='lg:w-1/3 ml-14'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+         <div className='lg:w-2/5 ml-16'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Simple Calculator</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
+       text:lg text-[16px] font-font leading-[32px] '>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
-        <div className='w-1/2 h-[271px]'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover ' />
+        <div className='w-2/5  ml-14 items-center '> 
+        <img src={Calculator} alt={Calculator} className='w-full h-[50vh] items-center  object-cover   ' />
           </div>
         
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20'>
-        <div className='w-1/2 h-[271px]'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover ' />
+         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+        <div className='w-2/5  items-center'> 
+        <img src={User} alt={User} className='w-full h-[50vh] items-center  object-cover  ' />
           </div>
-         <div className='lg:w-1/3 ml-14'>
+         <div className='lg:w-2/5 ml-14'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Fetch User</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
        text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20'>
-         <div className='lg:w-1/3 ml-14'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+         <div className='lg:w-2/5 mr-14'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Prime table</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
        text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
-        <div className='w-1/2 h-[271px]'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover ' />
+        <div className='w-2/5 items-center'> 
+          <img src={PrimeTable} alt={PrimeTable}  className='w-full h-[50vh] items-center  object-cover  ' />
           </div>
         
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20'>
-        <div className='w-1/2 h-[271px]'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover ' />
+         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+        <div className='w-2/5'> 
+          <img src={MockUp} alt={MockUp} className='w-full object-cover h-[50vh] items-center' />
           </div>
-         <div className='lg:w-1/3 ml-14'>
+         <div className='lg:w-2/5 ml-14'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Citrone</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
        text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20'>
-         <div className='lg:w-1/3 ml-14'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+         <div className='lg:w-2/5 mr-14'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Finsweet</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
        text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
-        <div className='w-1/2 h-[271px]'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover ' />
+        <div className='w-2/5 items-center'> 
+          <img src={MashUp} alt={MashUp} className='w-full object-cover h-[50vh] items-center' />
           </div>
         
          </div>
