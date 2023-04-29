@@ -23,69 +23,71 @@ const Portfolio = () => {
     </div>
       </div>
 
-       <div className='flex lg:flex-row md:flex-col flex-col py-20'>
+       <div className='flex lg:flex-row md:flex-col flex-col py-24'>
         <div className='w-full'> 
           <img src={MashUp} alt={MashUp} className='w-full  ' />
           </div>
-         <div className='lg:w-2/3 ml-14'>
+         <div className='lg:w-2/3 ml-14 lg:mt-20' >
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Portfolio Website</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px] '>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
+       text:lg text-[16px] font-font leading-[32px] '>This is my personal website which contains my resume and portfolio. I buit it with React, Tailwind Css and  typewriter effect , Framer motion and many react feactures such as React hooks,  </p>
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
           </div>
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
-         <div className='lg:w-2/5 ml-16'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-24 w-full'>
+         <div className='lg:w-2/5 ml-16 mt-20'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Simple Calculator</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px] '>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
-          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
+       text:lg text-[16px] font-font leading-[32px] '>This project was part of the javascript basic module for the Frontend Development Track at Stutern. I built this calculator for performing basic arithemetic. It was built with HTML , CSS and JavaScript</p>
+          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://javascript-calculator-app-nu.vercel.app/' target='blank'>View Project</a></button>
           </div>
         <div className='w-2/5  ml-14 items-center '> 
         <img src={Calculator} alt={Calculator} className='w-full h-[50vh] items-center  object-cover   ' />
           </div>
         
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-24 w-full'>
         <div className='w-2/5  items-center'> 
         <img src={User} alt={User} className='w-full h-[50vh] items-center  object-cover  ' />
           </div>
-         <div className='lg:w-2/5 ml-14'>
+         <div className='lg:w-2/5 ml-14 mt-20'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Fetch User</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
-          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
+       text:lg text-[16px] font-font leading-[32px]'>I built this project as part of the React basic module for the Frontend Development Track at Stutern. It is a simple design for search or fetching users using their name or username. It was built with React js</p>
+          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://async-react-wine.vercel.app/' target='blank'>View Project</a></button>
           </div>
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
-         <div className='lg:w-2/5 mr-14'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-24 w-full'>
+         <div className='lg:w-2/5 mr-14 mt-20'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Prime table</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
-          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
+       text:lg text-[16px] font-font leading-[32px]'>I built this project as part of the React js basic module for the Frontend Development Track at Stutern. It is a dynamic prime number multiplication table .It was built with React js</p>
+          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://prime-number-table.vercel.app/' target='blank'>View Project</a></button>
           </div>
         <div className='w-2/5 items-center'> 
           <img src={PrimeTable} alt={PrimeTable}  className='w-full h-[50vh] items-center  object-cover  ' />
           </div>
         
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-24 w-full'>
         <div className='w-2/5'> 
           <img src={MockUp} alt={MockUp} className='w-full object-cover h-[50vh] items-center' />
           </div>
-         <div className='lg:w-2/5 ml-14'>
+         <div className='lg:w-2/5 ml-14 mt-20'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Citrone</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
-          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
+       text:lg text-[16px] font-font leading-[32px]'>I am leading a team of three frontend developer to build a website which is a learning experience platform for seamlessly access learning material at Stutern. It was built with Reactjs and Redux toolkit.
+
+       </p>
+          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://fin-sweet-rouge.vercel.app/contact.html' target='blank'>View Project</a></button>
           </div>
          </div>
-         <div className='flex lg:flex-row md:flex-col flex-col py-20 w-full'>
-         <div className='lg:w-2/5 mr-14'>
+         <div className='flex lg:flex-row md:flex-col flex-col py-24 w-full'>
+         <div className='lg:w-2/5 mr-14 mt-20'>
           <h3 className='text-blu font-open fill-blu mb-12 lg:text-[32px] md:text-[28px] text-[26px] items-start'>Finsweet</h3>
           <p className='text-[#667085] text-justify lg:text-xl md
-       text:lg text-[16px] font-font leading-[32px]'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.</p>
-          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://portfolio-blue-seven-98.vercel.app/' target='blank'>View Project</a></button>
+       text:lg text-[16px] font-font leading-[32px]'>I built this web page while learning html and css .The webpage different pages that can be route to . It was built with HTML and vanilla CSS.</p>
+          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://fin-sweet-rouge.vercel.app/contact.html' target='blank'>View Project</a></button>
           </div>
         <div className='w-2/5 items-center'> 
           <img src={MashUp} alt={MashUp} className='w-full object-cover h-[50vh] items-center' />

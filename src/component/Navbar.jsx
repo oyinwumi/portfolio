@@ -14,6 +14,11 @@ const Navbar = () => {
     setBgColor('#F5F5F5');
     setColor('#667085');
     }
+    if(location.pathname === '/'){
+      setBgColor('#004DB3');
+      setColor('#F5F5F5')
+      }
+
   }, [location])
 
   return (

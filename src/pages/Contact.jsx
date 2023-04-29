@@ -14,7 +14,7 @@ import NavT from '../assest/nav.svg'
 const Contact = () => {
     // const [scroll, setScroll] = useState(false);
     const scrollToTop = () =>{
-      document.scroll({
+      window.scrollTo({
         top: 0,
         behavior:'smooth'
       })
@@ -47,7 +47,7 @@ const Contact = () => {
             </div>
             <div className='lg:w-1/2 md:w-full w-full xl:ml-36 lg:ml-14 md:ml-0 ml-0 text-whity  relative'>
                 <div>
-                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] '>
+                    <div className='flex gap-4 lg:text-xl md:text-xl text-[16px] mb-6'>
                     <img src={Frame} alt={Frame} />
                      <p className=''>5, Church Street,Bembo Area, Sango, Ibadan, Nigeria</p>
                     </div>
@@ -72,8 +72,8 @@ const Contact = () => {
                         <span>Ogunkunle oyindamola</span>
                     </a>
                     </div>
-                    <Link to='/' onClick={() => scrollToTop()} className='text-offwhite lg:text-[24px] font-font w-full absolute right-[-90%] top-[110%]'>
-                    <img src={NavT} alt={NavT} />
+                    <Link to='/' onClick={scrollToTop} className='text-offwhite lg:text-[24px] font-font w-full absolute lg:right-[-90%] md:right-[-80%] right-[-80%] top-[110%]'>
+                    <img src={NavT} alt={NavT} className='lg:w-auto md:w-auto w-[70px]'/>
         
                   </Link>
                 </div>
