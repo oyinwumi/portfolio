@@ -79,7 +79,7 @@ const Portfolio = () => {
        text:lg text-[16px] font-font leading-[32px]'>I am leading a team of three frontend developer to build a website which is a learning experience platform for seamlessly access learning material at Stutern. It was built with Reactjs and Redux toolkit.
 
        </p>
-          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://fin-sweet-rouge.vercel.app/contact.html' target='blank'>View Project</a></button>
+          <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://citrone-redesign-crater.vercel.app/' target='blank'>View Project</a></button>
           </div>
          </div>
          <div className='flex lg:flex-row md:flex-col flex-col py-24 w-full'>

@@ -1,4 +1,5 @@
 // import React, { useState } from 'react';
+import { userSchema } from '../validation/Validation';
 import { Link } from 'react-router-dom';
 import Frame from '../assest/Frame.svg'
 import Frame1 from '../assest/Frame (1).svg'
@@ -19,6 +20,20 @@ const Contact = () => {
         behavior:'smooth'
       })
     }
+  const contactMe = async (e) =>{
+    e.preventDefault();
+     let formData = {
+     firstName: e.target.value,
+      lastName: e.target.value,
+      email: e.target.value,
+      messasge: e.target.value,
+     };
+     const isValid = await userSchema.isValid(formData)
+     console.log(isValid);
+    console.log(formData);
+  }
+
+
   return (
     <div className='bg-[#00132D] lg:px-[124px] md:px-28 px-8 pt-20 pb-36'>
         <div className='lg:text-[48px] md:text-[30px] text-[22px] text-whity flex lg:flex-row md:flex-col flex-col items-center  justify-center mb-10  lg:gap-5 md:gap-0 gap-0 w-full'>
@@ -27,11 +42,11 @@ const Contact = () => {
               </div>
         <div className='flex lg:flex-row md:flex-col flex-col justify-between w-full text-whity font-font'>
             <div className='lg:w-1/2 md:w-full w-full'> 
-                <form action="oyindamoladorcasogunkunle@gmail.com" method='post'  className=' text-xl capitalize '>
+                <form action="oyindamoladorcasogunkunle@gmail.com" method='post' onSubmit={contactMe}  className=' text-xl  '>
                   <div className='flex lg:flex-row md:flex-col flex-col gap-5 w-full mb-6'>
                   <div className=' lg:w-1/2 md:w-full w-full'>
                     <label htmlFor="name" className='text-whity'>First Name</label><br />
-                    <input type="text" className='outline-none p-2 w-full  border rounded-lg capitalize bg-darkblue' />
+                    <input type="text" className='outline-none p-2 w-full  border rounded-lg  bg-darkblue' />
                     </div>
                     <div className=' lg:w-1/2 md:w-full w-full'>
                     <label htmlFor="name"  className='text-whity' >Last Name</label><br />
@@ -39,8 +54,8 @@ const Contact = () => {
                     </div>
                   </div>
                   <label htmlFor="email "  className='text-whity pb-3'>Email Address</label><br />
-                  <input type="email" className='w-full p-2 border rounded-lg outline-none mb-6 capitalize bg-darkblue' /><br /><br />
-                  <textarea name="" id="" cols="30" rows="3" placeholder='Message' className='w-full p-4 outline-none bg-darkblue border rounded-lg'></textarea>
+                  <input type="email" className='w-full p-2 border rounded-lg outline-none mb-6  bg-darkblue' /><br /><br />
+                  <textarea name="" id="" cols="30" rows="3" placeholder='Message' className='w-full p-4 outline-none bg-darkblue border rounded-lg lowercase'></textarea>
                   <button className='border text-center rounded-full w-full h-[46px] p-1 mt-4 bg-offwhite text-darkblue lg:mb-0 md:mb-14 mb-14'>Send</button> <br />
                  
                 </form>
