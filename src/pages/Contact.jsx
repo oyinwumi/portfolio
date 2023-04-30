@@ -23,16 +23,19 @@ const Contact = () => {
   const contactMe = async (e) =>{
     e.preventDefault();
      let formData = {
-     firstName: e.target.value,
-      lastName: e.target.value,
-      email: e.target.value,
-      messasge: e.target.value,
+     firstName: e.target[0].value,
+      lastName: e.target[1].value,
+      email: e.target[2].value,
+      messasge: e.target[3].value,
      };
+     const mailtoLink = `mailto:oyinwumi0229@gmail.com ? subject= `;
+     window.location.href = mailtoLink
      const isValid = await userSchema.isValid(formData)
      console.log(isValid);
     console.log(formData);
+    
   }
-
+ 
 
   return (
     <div className='bg-[#00132D] lg:px-[124px] md:px-28 px-8 pt-20 pb-36'>
@@ -42,21 +45,21 @@ const Contact = () => {
               </div>
         <div className='flex lg:flex-row md:flex-col flex-col justify-between w-full text-whity font-font'>
             <div className='lg:w-1/2 md:w-full w-full'> 
-                <form action="oyindamoladorcasogunkunle@gmail.com" method='post' onSubmit={contactMe}  className=' text-xl  '>
+                <form action="mailto:oyinwumi0229@gmail.com" method='post'  onSubmit={contactMe}  className=' text-xl  '>
                   <div className='flex lg:flex-row md:flex-col flex-col gap-5 w-full mb-6'>
                   <div className=' lg:w-1/2 md:w-full w-full'>
-                    <label htmlFor="name" className='text-whity'>First Name</label><br />
-                    <input type="text" className='outline-none p-2 w-full  border rounded-lg  bg-darkblue' />
+                    <label htmlFor="firstName" className='text-whity'>First Name</label><br />
+                    <input type="text" className='outline-none p-2 w-full  border rounded-lg  bg-darkblue capitalize' />
                     </div>
                     <div className=' lg:w-1/2 md:w-full w-full'>
-                    <label htmlFor="name"  className='text-whity' >Last Name</label><br />
+                    <label htmlFor="lastName"  className='text-whity' >Last Name</label><br />
                     <input type="text" className='outline-none  p-2 w-full border rounded-lg capitalize bg-darkblue'/>
                     </div>
                   </div>
                   <label htmlFor="email "  className='text-whity pb-3'>Email Address</label><br />
                   <input type="email" className='w-full p-2 border rounded-lg outline-none mb-6  bg-darkblue' /><br /><br />
-                  <textarea name="" id="" cols="30" rows="3" placeholder='Message' className='w-full p-4 outline-none bg-darkblue border rounded-lg lowercase'></textarea>
-                  <button className='border text-center rounded-full w-full h-[46px] p-1 mt-4 bg-offwhite text-darkblue lg:mb-0 md:mb-14 mb-14'>Send</button> <br />
+                  <textarea name="" id="" cols="30" rows="3" placeholder='Message' className='w-full p-4 outline-none bg-darkblue border rounded-lg capitalize'></textarea>
+                  <input type='submit' className='border text-center rounded-full w-full h-[46px] p-1 mt-4 bg-offwhite text-darkblue lg:mb-0 md:mb-14 mb-14'value='Send' /> <br />
                  
                 </form>
             </div>

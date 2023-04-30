@@ -6,7 +6,7 @@ const About = () => {
     <div className='bg-[#F5F5F5] text-whity  lg:px-[124px] md:px-28 px-8  py-20'>
     
         <div className='flex items-center lg:flex-row md:flex-col flex-col w-full'>
-    <div className='justify-center xl:mb-0 lg:mb-0 md:mb- 10 mb-10 '>
+    <div className='justify-center xl:mb-0 lg:mb-0 md:mb- 10 mb-14 '>
       <img src={Oyin} alt={Oyin} className=' mx-auto items-center w-auto  ' />
     </div>        
     <div className=' items-center  lg:ml-10  md:ml-0 ml-0  text-[#667085] xl:w-1/2 lg:w-1/2 md:w-full w-full  '>
