@@ -1,4 +1,5 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect';
 import { Link } from 'react-router-dom';
 import MashUp from '../assest/mash-up1.png'
 import Calculator from '../assest/calculator.jpeg'
@@ -9,17 +10,22 @@ import Logo from '../assest/portfolio-logo.svg'
 
 
 
+
 const Portfolio = () => {
   return (
     <div className='bg-[#ffffff] pt-20 lg:px-[124px] md:px-28 px-8 w-full'>
       <div className='text-center lg:w-[809px] justify-center mx-auto font-normal'>
-      <h2 className='lg:text-[32px] md:text-[28px] text-[24px] text-[#0F0A00] fill-[#0F0A00] font-medium leading-[60px] font-open '>I design and build usable  <br /> interface</h2>
+     
+      <div className='text-center lg:w-[809px] justify-center mx-auto  font-medium leading-[60px]'>
+        <p className=' flex flex-col text-[#0F0A00] lg:text-[48px] md:text-[36px] text-[34px] '>I design and build usable <span className='text-redorange ml-2 fill-[#0F0A00]'>    <Typewriter  options={{ autoStart: true, loop: true,delay: 75,strings:[' interface', 'experience', 'product']}}/></span>
+        </p>
+      </div> 
        <p className='text-[#667085] lg:text-xl md
-       text:lg text-[16px] font-font '>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, <br /> dedication and imbibing knowledge to others.</p>
+       text:lg text-[16px] font-font mt-4 '>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, <br /> dedication and imbibing knowledge to others.</p>
        <div className='flex gap-4 font-font pt-10 lg:text-[16px] text-sm  justify-center'>
       
-      <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[150px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold'>Download cv</button></a>
-      <Link to='/portfolio' className=''><button className='bg-offwhite hover:bg-redorange text-blu border lg:w-[156px] md:[156px] w-[150px] h-[46px] lg:p-2 p-1 text-center rounded-full border-blu font-extrabold '>Veiw my work</button></Link>
+      <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[150px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold outline-none'>Download cv</button></a>
+      <Link to='/portfolio' className=''><button className='bg-offwhite hover:bg-redorange text-blu border lg:w-[156px] md:[156px] w-[150px] h-[46px] lg:p-2 p-1 text-center rounded-full border-blu hover:border-redorange outline-none font-extrabold '>Veiw my work</button></Link>
     </div>
       </div>
 

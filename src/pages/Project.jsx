@@ -11,12 +11,12 @@ const Project = () => {
           </div>
       <div className=' w-full grid xl:grid-cols-3  lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-x-4 gap-y-14 items-center justify-center  mt-10'>
         {projectList.map((item , id)=>{
-          return <div  style={{backgroundColor: `${item.backgroundColor}` , borderColor: `${item.borderRadius}`} }  className={` lg:items-start md:items-center items-center justify-start mx-auto  xl:w-full lg:w-full md:w-full w-[300px] lg:h-[330px] md:h-[320px] h-[310px] bg-white text-[#000] border rounded-lg font-normal transition ease-in-out delay-150  hover:translate-y-1 hover:scale-105  duration-300  '`}>
+          return <div  style={{backgroundColor: `${item.backgroundColor}` , borderColor: `${item.borderRadius}`} }  className={` lg:items-start md:items-center items-center justify-start mx-auto  xl:w-full lg:w-full md:w-full w-[300px] lg:h-[340px] md:h-[320px] h-[310px] bg-white text-[#000] border rounded-lg font-normal transition ease-in-out delay-150  hover:translate-y-1 hover:scale-105  duration-300  '`}>
             <div className=' '>
             <h3 className='lg:text-[28px]  md:text-xl text-xl  mt-6  font-open px-6'>{item.title}</h3>
             <p className=' font-font mt-4 h-[160px] lg:text-[20px] md:text-[16px] text-[16px] text-sm leading-[32px] px-6'>{item.details}</p> 
             </div>
-            <button style={{color: `${item.backgroundColor}`}} className=' border items-start rounded-full w-32 lg:h-[46px] md:h-[42px] h-[40px] bg-[#000]  text-center p-2  lg:my-6 md:my-8 my-6 mx-6'><a href={item.link} target='blank'>View Project</a></button>
+            <button style={{color: `${item.backgroundColor}`}} className=' border items-start rounded-full w-32 lg:h-[46px] md:h-[42px] h-[40px] bg-[#000]  text-center p-2  lg:my-10 md:my-8 my-6 mx-6'><a href={item.link} target='blank'>View Project</a></button>
           </div>
         })}
       </div>

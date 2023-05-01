@@ -18,7 +18,7 @@ const projectList = [
     link: 'https://javascript-calculator-app-nu.vercel.app/'
     },
     {title:'Fetch User', image: FetchUsers, id:'3',  backgroundColor: '#E6F0FF', borderRadius: '#E6F0FF',
-    details : 'I built this project as part of the React basic module for the Frontend Development Track at Stutern. It is a simple design for search of fetching users. It was built with React js',
+    details : 'I built this project as part of the React basic module. It is a simple design for search of fetching users. It was built with React js',
     link: 'https://async-react-wine.vercel.app/'
     },
     {title:'Prime Table', image: PrimeTable, id:'4',  backgroundColor: '#FFD6FF', borderRadius: '#FFD6FF',
