@@ -10,11 +10,11 @@ const projectList = [
     link: 'https://portfolio-blue-seven-98.vercel.app/'
     },
     {title:'Finsweet', image: Citrone, id:'6', backgroundColor: '#EFF1F7', borderRadius: '#EFF1F7',
-    details: 'I built this web page while learning html and css .The webpage different route has different. It was built with HTML and vanilla CSS',
+    details: 'I built this web page while learning HTML and CSS.The webpage different route has different. It was built with HTML and vanilla CSS',
    link: 'https://fin-sweet-rouge.vercel.app/contact.html'
    },
     {title:'Simple Calulator', image: Calculator, id: '2',  backgroundColor: '#FFFFB8', borderRadius: '#FFFFB8',
-    details : ' This project was part of the javascript basic module for the Frontend Development Track at Stutern. I built this project for performing basic arithemetic. It was built with HTML , CSS and JavaScript ',
+    details : ' This project was part of the javascript basic module. I built this project for performing basic arithemetic. It was built with HTML , CSS and JavaScript ',
     link: 'https://javascript-calculator-app-nu.vercel.app/'
     },
     {title:'Fetch User', image: FetchUsers, id:'3',  backgroundColor: '#E6F0FF', borderRadius: '#E6F0FF',
@@ -22,11 +22,11 @@ const projectList = [
     link: 'https://async-react-wine.vercel.app/'
     },
     {title:'Prime Table', image: PrimeTable, id:'4',  backgroundColor: '#FFD6FF', borderRadius: '#FFD6FF',
-    details : 'I built this project as part of the React js basic module for the Frontend Development Track at Stutern. It is a dynamic prime number multiplication table It was built with React js ',
+    details : 'I built this project as part of the React js basic module. It is a dynamic prime number multiplication table It was built with React js ',
     link: 'https://prime-number-table.vercel.app/'
     },
     {title:'Citrone', image: Citrone, id:'5',  backgroundColor: '#FFDBCC', borderRadius: '#FFDBCC',
-    details : 'I am leading a team of three frontend developer to build a website which is a learning experience platform for seamlessly access learning material at Stutern. It was built with Reactjs and Redux toolkit.  ',
+    details : 'I led a team of three frontend developer to build a website,a learning experience platform for seamlessly access learning material. It was built with Reactjs and Redux toolkit.  ',
     link: 'https://citrone-redesign-crater.vercel.app/'
     },
   

@@ -11,7 +11,7 @@ const About = () => {
     </div>        
     <div className=' items-center  lg:ml-10  md:ml-0 ml-0  text-[#667085] xl:w-1/2 lg:w-1/2 md:w-full w-full  '>
     <div className=' text-blu flex lg:flex-row md:flex-col items-center flex-col lg:gap-5 md:gap-0 gap-0 w-full'>
-                <h2 className='lg:text-[48px] md:text-[30px] text-[22px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8 fill-blu'>About</h2>
+                <h2 className='lg:text-[32px] md:text-[28px] text-[24px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8 fill-blu'>About</h2>
                 <p className='lg:text-lg md:text-[16px] text-[16px] border-t border-blu lg:w-[499px] md:w-auto w-auto pt-2 lg:order-2 md:order-1 order-1'>Intuitive, Innovative, Team Player</p>
               </div>
               <p className='lg:text-lg md:text-[16px] text-[16px]  font-font leading-8  justify-center text-justify lg:mt-10 md:mt-6 mt-6'>I am a graduate of Microbiology. My interest in software development started during my National Youth service Corps through a friend who has a degree in computer science graduate. I took computer programming language as part of my undergraduate course (FORTRAN) even though it doesnt interest me much then i still passed it with A.

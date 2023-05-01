@@ -11,9 +11,9 @@ import Logo from '../assest/portfolio-logo.svg'
 
 const Portfolio = () => {
   return (
-    <div className='bg-offwhite pt-20 lg:px-[124px] md:px-28 px-8 w-full'>
+    <div className='bg-[#ffffff] pt-20 lg:px-[124px] md:px-28 px-8 w-full'>
       <div className='text-center lg:w-[809px] justify-center mx-auto font-normal'>
-      <h2 className='lg:text-[48px] md:text-[35px] text-[30px] text-[#0F0A00] fill-[#0F0A00] font-medium leading-[60px] font-open'>I design and build usable  <br /> interface</h2>
+      <h2 className='lg:text-[32px] md:text-[28px] text-[24px] text-[#0F0A00] fill-[#0F0A00] font-medium leading-[60px] font-open'>I design and build usable  <br /> interface</h2>
        <p className='text-[#667085] lg:text-xl md
        text:lg text-[16px] font-font '>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, <br /> dedication and imbibing knowledge to others.</p>
        <div className='flex gap-4 font-font pt-10 lg:text-[16px] text-sm  justify-center'>

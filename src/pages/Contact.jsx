@@ -39,8 +39,8 @@ const Contact = () => {
 
   return (
     <div className='bg-[#00132D] lg:px-[124px] md:px-28 px-8 pt-20 pb-36'>
-        <div className='lg:text-[48px] md:text-[30px] text-[22px] text-whity flex lg:flex-row md:flex-col flex-col items-center  justify-center mb-10  lg:gap-5 md:gap-0 gap-0 w-full'>
-                <p className='lg:text-[48px] md:text-[30px] text-[22px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>Get In Touch</p>
+        <div className='lg:text-[32px] md:text-[28px] text-[24px] text-whity flex lg:flex-row md:flex-col flex-col items-center  justify-center mb-10  lg:gap-5 md:gap-0 gap-0 w-full'>
+                <p className='lg:text-[32px] md:text-[28px] text-[24px] font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8'>Get In Touch</p>
                 <p className='lg:text-lg md:text-[16px]  text-[16px] border-t border-whity  pt-2 font-font lg:order-2 md:order-1 order-1'>Available to communicate</p>
               </div>
         <div className='flex lg:flex-row md:flex-col flex-col justify-between w-full text-whity font-font'>
