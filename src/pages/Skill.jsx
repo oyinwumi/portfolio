@@ -35,13 +35,13 @@ const Skill = () => {
       x: 0,
     },
     animate:{
-      x: -400
+      x: -100
     },
     exit:{
-      x: 400
+      x: 100
     },
     transition:{
-      duration:3,
+      duration:5,
       ease: 'linear',
        repeat: 'infinity' ,
         repeatType:'mirror'
