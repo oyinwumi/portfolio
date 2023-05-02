@@ -35,13 +35,13 @@ const Skill = () => {
       x: 0,
     },
     animate:{
-      x: -100
+      x: -400
     },
     exit:{
-      x: 100
+      x: 400
     },
     transition:{
-      duration:2,
+      duration:3,
       ease: 'linear',
        repeat: 'infinity' ,
         repeatType:'mirror'
@@ -53,7 +53,7 @@ const Skill = () => {
        <h2 className='lg:text-[32px] md:text-[28px] text-[24px]font-open lg:order-1 md:order-2 order-2 lg:mb-0 md:mb-8 mb-8 fill-blu font-open'>My Skills</h2>
          <p className='lg:text-lg md:text-[16px] text-[16px]  border-t border-blu  pt-2 font-font lg:order-2 md:order-1 order-1'>Proficient in various technical tools</p>
           </div>
-    <motion.div variants={variants} initial={variants.initial} animate={variants.animate} exit={variants.exit}  transition={variants.transition} className='text-blu font-font text-[60px] flex justify-center lg:gap-12 md:gap-10 gap-8 w-full   mt-10 '>
+    <motion.div variants={variants} initial={variants.initial} animate={variants.animate} exit={variants.exit}  transition={variants.transition} className='text-blu font-font lg:text-[60px] md:text-[45px] text-[20px] flex justify-center lg:gap-12 md:gap-10 gap-4 w-full   mt-10 '>
        < > <RiHtml5Fill className=' xl:mb-8 lg:mb-8  md:mb-6 mb-4 hover:text-blu  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '/></>
      < >  <RiCss3Fill  className=' xl:mb-8 lg:mb-8  md:mb-6 mb-4  hover:text-blu  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '/></>
       <> <RiReactjsFill  className=' xl:mb-8 lg:mb-8  md:mb-6 mb-4  hover:text-blu  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110  duration-300 '/></>
