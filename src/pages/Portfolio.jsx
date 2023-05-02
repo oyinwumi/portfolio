@@ -6,6 +6,7 @@ import Calculator from '../assest/calculator.jpeg'
 import PrimeTable from '../assest/primeTable.jpeg'
 import User from '../assest/fetch-users.jpeg'
 import MockUp from '../assest/mockup2.png'
+import Finsweet from '../assest/finsweet.jpeg'
 import Logo from '../assest/portfolio-logo.svg'
 
 
@@ -96,7 +97,7 @@ const Portfolio = () => {
           <button className=' border  rounded-full w-32 h-[46px] bg-blue  text-white text-center p-2   lg:my-8 md:my-8 my-8'><a href='https://fin-sweet-rouge.vercel.app/contact.html' target='blank'>View Project</a></button>
           </div>
         <div className='lg:w-2/5 md:w-full w-full items-center lg:mt-0 md:mt-10 mt-10'> 
-          <img src={MashUp} alt={MashUp} className='w-full object-cover   h-[486px] ' />
+          <img src={Finsweet} alt={Finsweet} className='w-full object-cover   h-[486px] ' />
           </div>
         
          </div>
