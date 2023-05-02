@@ -16,8 +16,8 @@ const Portfolio = () => {
     <div className='bg-[#ffffff] pt-20 lg:px-[124px] md:px-28 px-8 w-full'>
       <div className='text-center lg:w-[809px] justify-center mx-auto font-normal'>
      
-      <div className='text-center lg:w-[809px] justify-center mx-auto  font-medium leading-[60px]'>
-        <p className=' flex flex-col text-[#0F0A00] lg:text-[48px] md:text-[36px] text-[34px] '>I design and build usable <span className='text-redorange ml-2 fill-[#0F0A00]'>    <Typewriter  options={{ autoStart: true, loop: true,delay: 75,strings:[' interface', 'experience', 'product']}}/></span>
+      <div className='text-center lg:w-[809px] justify-center mx-auto  font-medium leading-[60px] lg:text-[48px] md:text-[36px] text-[34px]'>
+        <p className=' flex flex-col text-[#0F0A00]  '>I design and build usable <span className='text-redorange ml-2 fill-[#0F0A00]'>    <Typewriter  options={{ autoStart: true, loop: true,delay: 75,strings:[' interface', 'experience', 'product']}}/></span>
         </p>
       </div> 
        <p className='text-[#667085] lg:text-xl md

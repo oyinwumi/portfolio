@@ -9,7 +9,7 @@ import { motion } from "framer-motion"
 const HeroPage = () => {
   const [rotate, setRotate] = useState(false)
   return (
-    <div onMouseMove={() =>{setRotate(!rotate)}} transtion={{delay: 3}} className=' w-full bg-blu flex lg:flex-row md:flex-col flex-col lg:px-[124px] md:px-28 px-10 pb-20 border-t-0'>
+    <div onMouseMove={() =>{setRotate(!rotate)}} transtion={{delay: 3}} className=' w-full bg-blu flex lg:justify-start md:justify-center justify-center lg:flex-row md:flex-col flex-col lg:px-[124px] md:px-28 px-10 pb-20 border-t-0'>
        <div className=' font-open lg:order-1 md:order-2 order-2 lg:text-start md:text-center text-justify'>
         <h1 className='lg:text-[48px] md:text-[30px] text-[22px] font-open leading-6 text-offwhite fill-offwhite items-center lg:text-start md:text-center text-center mt-[50px]'>I am Oyindamola Dorcas, </h1>
       <div className=''>
@@ -24,8 +24,8 @@ const HeroPage = () => {
         <Link to='/portfolio' className=''><button className='bg-blu hover:bg-redorange text-white border lg:w-[156px] md:[156px] w-[150px] h-[46px] lg:p-2 p-1 text-center rounded-full border-off-white font-extrabold '>Veiw my work</button></Link>
       </div>
        </div>
-        <motion.div animate={{y: rotate ? 10 : 0}}   className='2xl:ml-96 xl:ml-0 lg:ml-0 md:ml-0 ml-0 w-full lg:order-2 md:order-1 order-1'>
-          <img src={Ok} alt={Ok} className='w-auto'/>
+        <motion.div animate={{y: rotate ? 10 : 0}}   className=' justify-center items-cemter 2xl:ml-96 xl:ml-0 lg:ml-0 md:ml-0 ml-0 w-full lg:order-2 md:order-1 order-1'>
+          <img src={Ok} alt={Ok} className='w-full'/>
           {/* <img src={Wumi} alt={Wumi} className='w-[400px] h-[400px] border rounded-full'/> */}
         </motion.div>
     </div>
