@@ -11,7 +11,7 @@ const projectList = [
     },
     {title:'Finsweet', image: Citrone, id:'6', backgroundColor: '#EFF1F7', borderRadius: '#EFF1F7',
     details: 'I built this web page while learning HTML and CSS.The webpage different route has different. It was built with HTML and vanilla CSS',
-   link: 'https://fin-sweet-rouge.vercel.app/contact.html'
+   link: 'https://fin-sweet-rouge.vercel.app/'
    },
     {title:'Simple Calulator', image: Calculator, id: '2',  backgroundColor: '#FFFFB8', borderRadius: '#FFFFB8',
     details : ' This project was part of the javascript basic module. I built this project for performing basic arithemetic. It was built with HTML , CSS and JavaScript ',
