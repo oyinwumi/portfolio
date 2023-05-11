@@ -21,7 +21,7 @@ const projectList = [
     details : 'I built this project as part of the React basic module. It is a simple design for search of fetching users. It was built with React js',
     link: 'https://async-react-wine.vercel.app/'
     },
-    {title:'Prime Table', image: PrimeTable, id:'4',  backgroundColor: '#FFD6FF', borderRadius: '#FFD6FF',
+    {title:'Prime Table', image: PrimeTable, id:'4',  backgroundColor: '##D0F3FF', borderRadius: '#D0F3FF',
     details : 'I built this project as part of the React js basic module. It is a dynamic prime number multiplication table It was built with React js ',
     link: 'https://prime-number-table.vercel.app/'
     },

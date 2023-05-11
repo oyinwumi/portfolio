@@ -13,13 +13,13 @@ const Project = () => {
         {projectList.map((item , id)=>{
           return <div  style={{backgroundColor: `${item.backgroundColor}` , borderColor: `${item.borderRadius}`} }  className={` lg:items-start md:items-center items-center justify-start mx-auto  w-full h-[315px] bg-white text-[#000] border rounded-lg font-normal transition ease-in-out delay-150  hover:translate-y-1 hover:scale-105  duration-300  '`}>
             <div className=' '>
-            <h3 className='lg:text-[24px]  md:text-xl text-xl  mt-6  font-open lg:px-8 mx-4'>{item.title}</h3>
-            <p className=' font-font mt-4 h-[100px] lg:text-[16px] md:text-[16px] text-sm leading-[32px] lg:px-8 mx-4'>{item.details}</p> 
+            <h3 className='lg:text-[24px]  md:text-xl text-xl  mt-6  font-open px-8 mx-4'>{item.title}</h3>
+            <p className=' font-font mt-4 h-[150px] text-[16px]  leading-[32px] px-8 mx-4'>{item.details}</p> 
             </div>
-            <button style={{color: `${item.backgroundColor}`}} className=' border items-start rounded-full w-32 lg:h-[46px] md:h-[42px] h-[40px] bg-[#000]  text-center p-2  my-16 lg:mx-8 mx-4'><a href={item.link} target='blank'>View Project</a></button>
+            <a href={item.link} target='blank'  className=' w-[40px] inline text-[#000] hover:text-blue text-center  mt-16  border-b  border-spacing-y-3 font-bold font-font mx-12 pb-2 ' >View Project</a>
           </div>
         })}
-      </div>
+      </div> 
     </div>
   )
 }
