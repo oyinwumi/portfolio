@@ -34,7 +34,7 @@ const Navbar = () => {
            <Link to="/" > <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center '>Home</li></Link>
            <Link to="/about"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center' >About</li></Link>
            <Link to="/contact" > <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Contact</li></Link>
-           <Link to="/portfolio"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Portfolio</li></Link>
+           <Link to="/portfolio"> <li className='px-4 lg:pb-0 md:pb-6 pb-6 hover:text-redorange hover:border-b-2 text-center'>Projects</li></Link>
         </ul>
     </nav>
   )
