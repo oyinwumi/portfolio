@@ -24,7 +24,7 @@ const Navbar = () => {
   return (
     <nav style={{backgroundColor: bgcolor}} className={`  bg-blu font-font w-full h-[88px]  flex justify-between lg:px-[124px] md:px-28 px-8 text-white text-xl items-center border-b-0`}>
         <div className=' '>
-            <img src={Logo} alt={Logo} className='md:w-[233px] md:h-[44px] w-[233px] h-[44px] items-center ' />     
+          <Link to="/"><img src={Logo} alt={Logo} className='md:w-[233px] md:h-[44px] w-[233px] h-[44px] items-center ' />     </Link>
         </div>
         <div  onClick={() => setOpen(!open)}className=' text-white text-4xl  font-light ml-2 lg:hidden'>
            <ion-icon name={open ? "close" : "menu"} ></ion-icon>

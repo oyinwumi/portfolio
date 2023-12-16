@@ -20,7 +20,7 @@ const HeroPage = () => {
   
       <div className='flex gap-4 font-font pt-10 lg:text-[16px] text-sm lg:justify-start md:justify-center justify-center'>
       
-        <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[145px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold'>Download cv</button></a>
+        <a href="https://docs.google.com/document/d/1FXbNHnOJHeMbi84DnXZEJe_5J9fbN7dxg_VKaQZrNB0/edit?usp=sharing"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[145px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold'>Download cv</button></a>
         <Link to='/portfolio' className=''><button className='bg-blu hover:bg-redorange text-white border lg:w-[156px] md:[156px] w-[150px] h-[46px] lg:p-2 p-1 text-center rounded-full border-off-white font-extrabold '>Veiw my work</button></Link>
       </div>
        </div>

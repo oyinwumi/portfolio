@@ -25,7 +25,7 @@ const Portfolio = () => {
        text:lg text-[16px] font-font mt-4 '>Building scalable product for various business is my area of speciality. My core values are unwavering integrity, empathy, team spirit and collaboration, good communication, <br /> dedication and imbibing knowledge to others.</p>
        <div className='flex gap-4 font-font pt-10 lg:text-[16px] text-sm  justify-center'>
       
-      <a href="https://docs.google.com/document/d/121ZnIMVgnoDHn0gNVnJ8Q6FfabEZ667OTuZ1Ztjm0I4/edit#heading=h.arnrh62rcfpt"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[140px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold outline-none'>Download cv</button></a>
+      <a href="https://docs.google.com/document/d/1FXbNHnOJHeMbi84DnXZEJe_5J9fbN7dxg_VKaQZrNB0/edit?usp=sharing"  target='blank' ><button className=' bg-redorange hover:bg-blu   text-white border lg:w-[156px] md:[156px]  w-[140px] h-[46px] p-2 text-center rounded-full border-redorange hover:border-white font-extrabold outline-none'>Download cv</button></a>
       <Link to='/portfolio' className=''><button className='bg-offwhite hover:bg-redorange text-blu border lg:w-[156px] md:[156px] w-[140px] h-[46px] lg:p-2 p-1 text-center rounded-full border-blu hover:border-redorange outline-none font-extrabold '>Veiw my work</button></Link>
     </div>
       </div>
